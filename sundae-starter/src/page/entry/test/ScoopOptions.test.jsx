@@ -1,5 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import ScoopOptions from "../ScoopOptions";
+import { render } from "../../../test-utils/testing-lib-provder";
 
 test("옵션", async () => {
   render(<ScoopOptions />);
